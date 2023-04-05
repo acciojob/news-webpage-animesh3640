@@ -16,13 +16,13 @@ header{
     justify-content:center;
 	margin:5px;
 }
-.col1, .col2, .col3{
+.latest-news-section, .col2, .pictorial-news-section{
 	background-color:white;
 	margin:5px;
 	border-radius:15px;
 	padding:5px;
 }
-.col3 > img{
+.pictorial-news-section > img{
 	width:50%;
 	margin:5px;
 	
@@ -31,11 +31,11 @@ header{
 	width:40%;
 	height:40%
 }
-.col1{
+.latest-news-section{
 	width:30%;
 	height:20%
 }
-.col3{
+.pictorial-news-section{
 	width:30%;
 	display:flex;
 	flex-direction:column;
